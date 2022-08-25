@@ -1,7 +1,7 @@
 const numbers = [12, 56, 87, 44];
-const half = numbers.map( n => n/2 )
+const half = numbers.map( n => n+1 )
 const thirds = numbers.map(x => x/3);
-// console.log(half);
+console.log(half);
 // console.log(thirds);
 
 const friends = ['Tom Hanks', 'Tom Cruise', 'Tom Brady', 'TOM Solaiman'];
@@ -20,5 +20,5 @@ const products = [
 // const items = products.map(product => console.log(product.name));
 const items = products.map(product => product.name);
 const prices = products.map(p => p.price);
-// console.log(items)
-console.log(prices);
+// console.log(items) // [ 'laptop', 'mobile', 'watch', 'tablet' ]
+// console.log(prices); // [ 45000, 80000, 35000, 23000 ]

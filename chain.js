@@ -25,6 +25,5 @@ const user = {
         city: 'Dhaka'
     }
 } 
-
-const userFloor = user.address?.stret?.second;
-console.log(userFloor);
+const userFloor = user.address?.street?.second;
+console.log(userFloor); // third floor(.street?), // undefined (.stret?)
